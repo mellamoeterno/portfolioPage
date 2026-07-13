@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import { motion } from "motion/react";
-import { RevealSection } from "../app/components/slidingSection"
+import { RevealSection } from "./components/effects/slidingSection"
 import Link from "next/link"
 
 
