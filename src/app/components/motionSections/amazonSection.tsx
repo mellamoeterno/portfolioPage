@@ -52,7 +52,7 @@ export function Amazon() {
             className="absolute w-[1100px] h-[500px] opacity-10 blur-sm"
             style={{
                 backgroundImage:
-                "url('https://i.giphy.com/fLyxKDDq0vjbLXiUXT.webp')",
+                "url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm1wbzQ1MW9hMjVjbHNpZzBsNTZyZTFzdGxxOWUzcDFidnh2aWk1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornjXKWFKxffisyfS/giphy.gif')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
