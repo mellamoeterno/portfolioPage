@@ -55,7 +55,7 @@ export function Profile() {
             <br/>
             <br/>
             <span className="font-medium text-zinc-950 dark:text-zinc-50">
-                Experience in Ecommerce & Perfomance
+                Experience in Ecommerce & Performance
             </span>
             <br/>
             <br/>
