@@ -52,7 +52,7 @@ export function Amazon() {
             className="absolute w-[1100px] h-[500px] opacity-10 blur-sm"
             style={{
                 backgroundImage:
-                "url('https://i.giphy.com/fLyxKDDq0vjbLXiUXT.webp')",
+                "url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm1wbzQ1MW9hMjVjbHNpZzBsNTZyZTFzdGxxOWUzcDFidnh2aWk1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornjXKWFKxffisyfS/giphy.gif')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
@@ -74,7 +74,11 @@ export function Amazon() {
                 Created Using
             </h1>
             <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                Nextjs Prisma & mySql, implementing Ecommerce SaaS principles, Compound components and Amazon/like Database products with normalization
+            Nextjs Prisma & mySql, implementing Ecommerce SaaS principles, Compound components and Amazon/like Database products with normalization.
+            </p>
+            <br></br>
+            <p className="max-w-md text-md leading-8 text-zinc-600 dark:text-zinc-400">
+            {`(Mainly for product mockup, project does not follow Amazon Ui, only for products representation/code alike.)`}
             </p>
             <Image
             src="/empty.png"
