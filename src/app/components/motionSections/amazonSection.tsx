@@ -74,7 +74,11 @@ export function Amazon() {
                 Created Using
             </h1>
             <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                Nextjs Prisma & mySql, implementing Ecommerce SaaS principles, Compound components and Amazon/like Database products with normalization
+            Nextjs Prisma & mySql, implementing Ecommerce SaaS principles, Compound components and Amazon/like Database products with normalization.
+            </p>
+            <br></br>
+            <p className="max-w-md text-md leading-8 text-zinc-600 dark:text-zinc-400">
+            {`(Mainly for product mockup, project does not follow Amazon Ui, only for products representation/code alike.)`}
             </p>
             <Image
             src="/empty.png"
