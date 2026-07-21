@@ -39,11 +39,11 @@ export function Amazon() {
             className="relative z-10 rounded-3x1"
             />
             </motion.div>
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            Amazon Clone Project
+            <h1 className="max-w-xs text-[18px] font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+                Amazon Inspired Products Project
             </h1>
-            <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Made with principles following close/to amazon code.
+            <p className="max-w-md text-[16px]leading-8 text-zinc-600 dark:text-zinc-400">
+            Made with principles following close/to amazon products.
             </p>
             <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
             {/*          */}
@@ -70,14 +70,14 @@ export function Amazon() {
                 ease: "easeInOut",
             }}
             >
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            <h1 className="max-w-xs text-[18px] font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
                 Created Using
             </h1>
-            <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-[16px] leading-8 text-zinc-600 dark:text-zinc-400">
             Nextjs Prisma & mySql, implementing Ecommerce SaaS principles, Compound components and Amazon/like Database products with normalization.
             </p>
             <br></br>
-            <p className="max-w-md text-md leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-[15px] leading-8 text-zinc-600 dark:text-zinc-400">
             {`(Mainly for product mockup, project does not follow Amazon Ui, only for products representation/code alike.)`}
             </p>
             <Image
