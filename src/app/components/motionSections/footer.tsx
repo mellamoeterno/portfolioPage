@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "motion/react";
 import Image from "next/image";
+import Link from "next/link"
 
 export function Footer() {
     return (
@@ -33,6 +34,7 @@ export function Footer() {
             <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
               Contact me
             </h1>
+            <Link href="https://discord.com/users/826317527578837013">
             <Image
             src="/disc.png"
             alt="Shein"
@@ -41,6 +43,17 @@ export function Footer() {
             priority
             className="relative z-10 rounded-3x1"
             />
+            </Link>
+            <Link href="https://www.linkedin.com/in/enoque-souza-9893823a2/">
+            <Image
+            src="/linkedin1.png"
+            alt="Shein"
+            width={150}
+            height={150}
+            priority
+            className="relative z-10 rounded-3x1"
+            />
+            </Link>
             </motion.div>
             <div className="mb-100">
             {/*          */}
