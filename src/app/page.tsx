@@ -24,6 +24,14 @@ export default function Home() {
 
     <RevealSection>
       <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+        <Link href="https://www.youtube.com/@LoveforyaPick">
+        <Section.YoutubeSection/>
+        </Link>
+      </section>
+    </RevealSection>
+
+    <RevealSection>
+      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Section.FooterSection/>
       </section>
     </RevealSection>

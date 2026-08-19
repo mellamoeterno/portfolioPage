@@ -3,6 +3,7 @@ import { Profile } from "../../components/motionSections/profileSection"
 import { Amazon } from "../../components/motionSections/amazonSection"
 import { Shein } from "../../components/motionSections/sheinSection"
 import { Footer } from "../../components/motionSections/footer"
+import { youtube } from "../../components/motionSections/youtubeSection"
 
 function SectionType() {}
 
@@ -11,5 +12,6 @@ export const Section = Object.assign(SectionType, {
     AmazonSection: Amazon,
     SheinSection: Shein,
     FooterSection: Footer,
+    YoutubeSection: youtube,
 
 }) 
