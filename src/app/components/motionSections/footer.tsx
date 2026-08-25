@@ -31,7 +31,7 @@ export function Footer() {
                 ease: "easeInOut",
             }}
             >
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-50">
               Contact me
             </h1>
             <Link href="https://discord.com/users/826317527578837013">

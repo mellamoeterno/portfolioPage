@@ -39,10 +39,10 @@ export function youtube() {
             className="relative z-10 rounded-3x1"
             />
             </motion.div>
-            <h1 className="max-w-xs text-[18px] font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            <h1 className="max-w-xs text-[18px] font-semibold leading-10 tracking-tight text-zinc-50">
                 Checkout my youtube
             </h1>
-            <p className="max-w-md text-[16px]leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-[16px]leading-8 text-zinc-400">
             In here you can access my channel on YT and see my lessons.
             </p>
             <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
@@ -70,10 +70,10 @@ export function youtube() {
                 ease: "easeInOut",
             }}
             >
-            <h1 className="max-w-xs text-[18px] font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            <h1 className="max-w-xs text-[18px] font-semibold leading-10 tracking-tight text-zinc-50">
                 I teach about javascript
             </h1>
-            <p className="max-w-md text-[16px] leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-[16px] leading-8 text-zinc-400">
             And i plan on teaching much more about React and Typescript, which are my expertise.
             </p>
             <br></br>

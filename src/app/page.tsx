@@ -5,9 +5,9 @@ import { Section } from "../app/components/motionSections/index"
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-start bg-zinc-50 font-sans dark:bg-black overflow-x-clip">
+    <div className="flex flex-col flex-1 items-center justify-start font-sans bg-black overflow-x-clip">
     {/* profile */}
-      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-black sm:items-start">
 
         <Section.ProfileSection/>
 
@@ -15,7 +15,7 @@ export default function Home() {
     {/* profile */}
 
     <RevealSection>
-      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-black sm:items-start">
         <Link href="https://amazon-products-mockup.vercel.app/">
         <Section.AmazonSection/>
         </Link>
@@ -23,7 +23,7 @@ export default function Home() {
     </RevealSection>
 
     <RevealSection>
-      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-black sm:items-start">
         <Link href="https://www.youtube.com/@LoveforyaPick">
         <Section.YoutubeSection/>
         </Link>
@@ -31,7 +31,7 @@ export default function Home() {
     </RevealSection>
 
     <RevealSection>
-      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <section className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-black sm:items-start">
         <Section.FooterSection/>
       </section>
     </RevealSection>

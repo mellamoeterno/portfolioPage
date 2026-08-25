@@ -43,29 +43,29 @@ export function Profile() {
             />
             </motion.div>
             <h1
-            className="max-w-xs text-3x1 font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            className="max-w-xs text-3x1 font-semibold leading-10 tracking-tigh text-zinc-50">
             Enoque Souza
             <br/>
-            <span className="font-medium text-[13px] text-zinc-600 dark:text-zinc-400">
+            <span className="font-medium text-[13px] text-zinc-400">
             {`English (native) | Portuguese (native)`}
             </span>
             </h1>
-            <p className="max-w-md text-3x1 leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-3x1 leading-8 text-zinc-400">
             Software Developer 
             <br/>
-            <span className="font-medium text-zinc-950 dark:text-zinc-50">
+            <span className="font-medium text-zinc-50">
                 Junior React & Typescrit | Basic MySql
             </span>
             <br/>
             <br/>
-            <span className="font-medium text-3x1 text-zinc-950 dark:text-zinc-50">
+            <span className="font-medium text-3x1 text-zinc-50">
                 Experience in Ecommerce & Performance
             </span>
             <br/>
             <br/>
             <a
             href="https://github.com/mellamoeterno"
-            className="font-medium text-zinc-600 dark:text-zinc-400 hover:text-black transition-colors"
+            className="font-medium text-zinc-400 hover:text-black transition-colors"
             >
                 GitHub
             </a>
