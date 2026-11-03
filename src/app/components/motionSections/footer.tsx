@@ -34,7 +34,7 @@ export function Footer() {
             <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-50">
               Contact me
             </h1>
-            <Link href="https://discord.com/users/826317527578837013">
+            <Link href="https://discord.com/users/850435833516523601">
             <Image
             src="/disc.png"
             alt="Shein"
